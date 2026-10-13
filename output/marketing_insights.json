@@ -1,0 +1,44 @@
+[
+  {
+  "cluster": 1,
+  "segment_name": "Occasional Value Shoppers",
+  "customer_count": 30,
+  "percentage": 30,
+  "avg_age": 29.2,
+  "avg_annual_income": 30175.53,
+  "avg_purchase_frequency": 6.8,
+  "avg_purchase_amount": 46.98,
+  "est_annual_spend": 319.46,
+  "key_characteristics": "Lower purchase frequency (6.8 visits/yr) and budget-conscious basket sizes ($46.98 vs avg $124.36) with lower average income ($30175.53).",
+  "recommended_strategy": "Targeted re-engagement discounts, entry-level promotional bundles, seasonal flash sales, and low-barrier referral bonuses.",
+  "rationale": "Because this segment spends less per transaction ($46.98) and shops less frequently (6.8/yr), price-accessible incentives encourage repeat visits and habit formation."
+},
+  {
+  "cluster": 2,
+  "segment_name": "High-Value Occasional Spenders",
+  "customer_count": 35,
+  "percentage": 35,
+  "avg_age": 47,
+  "avg_annual_income": 87887.51,
+  "avg_purchase_frequency": 12.2,
+  "avg_purchase_amount": 222.03,
+  "est_annual_spend": 2708.77,
+  "key_characteristics": "Higher average purchase value ($222.03 vs avg $124.36) and higher income ($87887.51), with moderate visit frequency (12.2 visits/yr).",
+  "recommended_strategy": "VIP concierge service, premium product launches, high-tier bundling, and personalized relationship marketing.",
+  "rationale": "Because these customers exhibit the highest basket size ($222.03/purchase), premium upselling and exclusive service maximize revenue without requiring constant purchase frequency."
+},
+  {
+  "cluster": 3,
+  "segment_name": "Frequent Repeat Shoppers",
+  "customer_count": 35,
+  "percentage": 35,
+  "avg_age": 32.7,
+  "avg_annual_income": 52989.43,
+  "avg_purchase_frequency": 34.2,
+  "avg_purchase_amount": 93,
+  "est_annual_spend": 3180.6,
+  "key_characteristics": "Significantly higher visit frequency (34.2 visits/yr vs avg 18.2) and moderate basket sizes ($93.00), reflecting regular ongoing patronage.",
+  "recommended_strategy": "Points-based loyalty program, automatic replenishment reminders, frequency milestone rewards, and member-only weekly specials.",
+  "rationale": "With visit frequency at 34.2 purchases annually, rewarding continuous repeat engagement strengthens brand loyalty and increases lifetime customer retention."
+}
+]

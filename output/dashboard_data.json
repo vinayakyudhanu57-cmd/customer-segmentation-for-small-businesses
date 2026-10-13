@@ -1,0 +1,897 @@
+{
+  "generated_at": "2026-10-13 21:05:31",
+  "overview": {
+  "total_customers": 100,
+  "avg_age": 36.7,
+  "min_age": 18,
+  "max_age": 64,
+  "avg_annual_income": 58359.59,
+  "min_annual_income": 24758,
+  "max_annual_income": 105333,
+  "avg_purchase_frequency": 18.2,
+  "min_purchase_frequency": 4,
+  "max_purchase_frequency": 44,
+  "avg_purchase_amount": 124.36,
+  "min_purchase_amount": 29.2,
+  "max_purchase_amount": 324.57,
+  "total_annual_revenue_est": 214624
+},
+  "clusters": [
+  {
+  "cluster": 1,
+  "customer_count": 30,
+  "percentage": 30,
+  "avg_age": 29.2,
+  "avg_annual_income": 30175.53,
+  "avg_purchase_frequency": 6.8,
+  "avg_purchase_amount": 46.98,
+  "est_annual_spend_per_customer": 319.46
+},
+  {
+  "cluster": 2,
+  "customer_count": 35,
+  "percentage": 35,
+  "avg_age": 47,
+  "avg_annual_income": 87887.51,
+  "avg_purchase_frequency": 12.2,
+  "avg_purchase_amount": 222.03,
+  "est_annual_spend_per_customer": 2708.77
+},
+  {
+  "cluster": 3,
+  "customer_count": 35,
+  "percentage": 35,
+  "avg_age": 32.7,
+  "avg_annual_income": 52989.43,
+  "avg_purchase_frequency": 34.2,
+  "avg_purchase_amount": 93,
+  "est_annual_spend_per_customer": 3180.6
+}
+],
+  "insights": [
+  {
+  "cluster": 1,
+  "segment_name": "Occasional Value Shoppers",
+  "customer_count": 30,
+  "percentage": 30,
+  "avg_age": 29.2,
+  "avg_annual_income": 30175.53,
+  "avg_purchase_frequency": 6.8,
+  "avg_purchase_amount": 46.98,
+  "est_annual_spend": 319.46,
+  "key_characteristics": "Lower purchase frequency (6.8 visits/yr) and budget-conscious basket sizes ($46.98 vs avg $124.36) with lower average income ($30175.53).",
+  "recommended_strategy": "Targeted re-engagement discounts, entry-level promotional bundles, seasonal flash sales, and low-barrier referral bonuses.",
+  "rationale": "Because this segment spends less per transaction ($46.98) and shops less frequently (6.8/yr), price-accessible incentives encourage repeat visits and habit formation."
+},
+  {
+  "cluster": 2,
+  "segment_name": "High-Value Occasional Spenders",
+  "customer_count": 35,
+  "percentage": 35,
+  "avg_age": 47,
+  "avg_annual_income": 87887.51,
+  "avg_purchase_frequency": 12.2,
+  "avg_purchase_amount": 222.03,
+  "est_annual_spend": 2708.77,
+  "key_characteristics": "Higher average purchase value ($222.03 vs avg $124.36) and higher income ($87887.51), with moderate visit frequency (12.2 visits/yr).",
+  "recommended_strategy": "VIP concierge service, premium product launches, high-tier bundling, and personalized relationship marketing.",
+  "rationale": "Because these customers exhibit the highest basket size ($222.03/purchase), premium upselling and exclusive service maximize revenue without requiring constant purchase frequency."
+},
+  {
+  "cluster": 3,
+  "segment_name": "Frequent Repeat Shoppers",
+  "customer_count": 35,
+  "percentage": 35,
+  "avg_age": 32.7,
+  "avg_annual_income": 52989.43,
+  "avg_purchase_frequency": 34.2,
+  "avg_purchase_amount": 93,
+  "est_annual_spend": 3180.6,
+  "key_characteristics": "Significantly higher visit frequency (34.2 visits/yr vs avg 18.2) and moderate basket sizes ($93.00), reflecting regular ongoing patronage.",
+  "recommended_strategy": "Points-based loyalty program, automatic replenishment reminders, frequency milestone rewards, and member-only weekly specials.",
+  "rationale": "With visit frequency at 34.2 purchases annually, rewarding continuous repeat engagement strengthens brand loyalty and increases lifetime customer retention."
+}
+],
+  "customers": [
+  {
+  "customer_id": 1001,
+  "age": 32,
+  "annual_income": 62143,
+  "purchase_frequency": 33,
+  "average_purchase_amount": 109.04,
+  "cluster": 3
+},
+  {
+  "customer_id": 1002,
+  "age": 36,
+  "annual_income": 25120,
+  "purchase_frequency": 4,
+  "average_purchase_amount": 46.17,
+  "cluster": 1
+},
+  {
+  "customer_id": 1003,
+  "age": 27,
+  "annual_income": 56503,
+  "purchase_frequency": 41,
+  "average_purchase_amount": 92.73,
+  "cluster": 3
+},
+  {
+  "customer_id": 1004,
+  "age": 43,
+  "annual_income": 49157,
+  "purchase_frequency": 40,
+  "average_purchase_amount": 114.11,
+  "cluster": 3
+},
+  {
+  "customer_id": 1005,
+  "age": 30,
+  "annual_income": 49619,
+  "purchase_frequency": 33,
+  "average_purchase_amount": 92.78,
+  "cluster": 3
+},
+  {
+  "customer_id": 1006,
+  "age": 64,
+  "annual_income": 79075,
+  "purchase_frequency": 13,
+  "average_purchase_amount": 212.06,
+  "cluster": 2
+},
+  {
+  "customer_id": 1007,
+  "age": 49,
+  "annual_income": 78640,
+  "purchase_frequency": 14,
+  "average_purchase_amount": 225.72,
+  "cluster": 2
+},
+  {
+  "customer_id": 1008,
+  "age": 25,
+  "annual_income": 105333,
+  "purchase_frequency": 11,
+  "average_purchase_amount": 234.36,
+  "cluster": 2
+},
+  {
+  "customer_id": 1009,
+  "age": 30,
+  "annual_income": 42041,
+  "purchase_frequency": 36,
+  "average_purchase_amount": 85.87,
+  "cluster": 3
+},
+  {
+  "customer_id": 1010,
+  "age": 24,
+  "annual_income": 59256,
+  "purchase_frequency": 32,
+  "average_purchase_amount": 80.18,
+  "cluster": 3
+},
+  {
+  "customer_id": 1011,
+  "age": 38,
+  "annual_income": 43674,
+  "purchase_frequency": 29,
+  "average_purchase_amount": 85.66,
+  "cluster": 3
+},
+  {
+  "customer_id": 1012,
+  "age": 45,
+  "annual_income": 96340,
+  "purchase_frequency": 13,
+  "average_purchase_amount": 213.01,
+  "cluster": 2
+},
+  {
+  "customer_id": 1013,
+  "age": 41,
+  "annual_income": 80000,
+  "purchase_frequency": 14,
+  "average_purchase_amount": 280.39,
+  "cluster": 2
+},
+  {
+  "customer_id": 1014,
+  "age": 57,
+  "annual_income": 88987,
+  "purchase_frequency": 14,
+  "average_purchase_amount": 229.94,
+  "cluster": 2
+},
+  {
+  "customer_id": 1015,
+  "age": 26,
+  "annual_income": 55537,
+  "purchase_frequency": 33,
+  "average_purchase_amount": 105.96,
+  "cluster": 3
+},
+  {
+  "customer_id": 1016,
+  "age": 41,
+  "annual_income": 98128,
+  "purchase_frequency": 18,
+  "average_purchase_amount": 213.56,
+  "cluster": 2
+},
+  {
+  "customer_id": 1017,
+  "age": 34,
+  "annual_income": 69447,
+  "purchase_frequency": 35,
+  "average_purchase_amount": 98.91,
+  "cluster": 3
+},
+  {
+  "customer_id": 1018,
+  "age": 44,
+  "annual_income": 91042,
+  "purchase_frequency": 16,
+  "average_purchase_amount": 215.01,
+  "cluster": 2
+},
+  {
+  "customer_id": 1019,
+  "age": 33,
+  "annual_income": 51412,
+  "purchase_frequency": 37,
+  "average_purchase_amount": 107.51,
+  "cluster": 3
+},
+  {
+  "customer_id": 1020,
+  "age": 31,
+  "annual_income": 53952,
+  "purchase_frequency": 36,
+  "average_purchase_amount": 76.46,
+  "cluster": 3
+},
+  {
+  "customer_id": 1021,
+  "age": 56,
+  "annual_income": 55076,
+  "purchase_frequency": 16,
+  "average_purchase_amount": 187.13,
+  "cluster": 2
+},
+  {
+  "customer_id": 1022,
+  "age": 29,
+  "annual_income": 30669,
+  "purchase_frequency": 7,
+  "average_purchase_amount": 53.87,
+  "cluster": 1
+},
+  {
+  "customer_id": 1023,
+  "age": 50,
+  "annual_income": 103397,
+  "purchase_frequency": 12,
+  "average_purchase_amount": 269.3,
+  "cluster": 2
+},
+  {
+  "customer_id": 1024,
+  "age": 28,
+  "annual_income": 39142,
+  "purchase_frequency": 6,
+  "average_purchase_amount": 42.24,
+  "cluster": 1
+},
+  {
+  "customer_id": 1025,
+  "age": 32,
+  "annual_income": 95472,
+  "purchase_frequency": 11,
+  "average_purchase_amount": 208.52,
+  "cluster": 2
+},
+  {
+  "customer_id": 1026,
+  "age": 51,
+  "annual_income": 61444,
+  "purchase_frequency": 9,
+  "average_purchase_amount": 236.59,
+  "cluster": 2
+},
+  {
+  "customer_id": 1027,
+  "age": 44,
+  "annual_income": 79378,
+  "purchase_frequency": 11,
+  "average_purchase_amount": 178.53,
+  "cluster": 2
+},
+  {
+  "customer_id": 1028,
+  "age": 28,
+  "annual_income": 36155,
+  "purchase_frequency": 6,
+  "average_purchase_amount": 41.26,
+  "cluster": 1
+},
+  {
+  "customer_id": 1029,
+  "age": 26,
+  "annual_income": 27286,
+  "purchase_frequency": 9,
+  "average_purchase_amount": 42.04,
+  "cluster": 1
+},
+  {
+  "customer_id": 1030,
+  "age": 33,
+  "annual_income": 57624,
+  "purchase_frequency": 34,
+  "average_purchase_amount": 103.26,
+  "cluster": 3
+},
+  {
+  "customer_id": 1031,
+  "age": 62,
+  "annual_income": 80006,
+  "purchase_frequency": 9,
+  "average_purchase_amount": 212.35,
+  "cluster": 2
+},
+  {
+  "customer_id": 1032,
+  "age": 36,
+  "annual_income": 62785,
+  "purchase_frequency": 34,
+  "average_purchase_amount": 94.52,
+  "cluster": 3
+},
+  {
+  "customer_id": 1033,
+  "age": 20,
+  "annual_income": 27542,
+  "purchase_frequency": 6,
+  "average_purchase_amount": 41.7,
+  "cluster": 1
+},
+  {
+  "customer_id": 1034,
+  "age": 26,
+  "annual_income": 95072,
+  "purchase_frequency": 15,
+  "average_purchase_amount": 195.12,
+  "cluster": 2
+},
+  {
+  "customer_id": 1035,
+  "age": 23,
+  "annual_income": 31230,
+  "purchase_frequency": 8,
+  "average_purchase_amount": 48.37,
+  "cluster": 1
+},
+  {
+  "customer_id": 1036,
+  "age": 32,
+  "annual_income": 24758,
+  "purchase_frequency": 11,
+  "average_purchase_amount": 47.98,
+  "cluster": 1
+},
+  {
+  "customer_id": 1037,
+  "age": 37,
+  "annual_income": 56210,
+  "purchase_frequency": 33,
+  "average_purchase_amount": 95.04,
+  "cluster": 3
+},
+  {
+  "customer_id": 1038,
+  "age": 33,
+  "annual_income": 28162,
+  "purchase_frequency": 5,
+  "average_purchase_amount": 29.2,
+  "cluster": 1
+},
+  {
+  "customer_id": 1039,
+  "age": 46,
+  "annual_income": 27468,
+  "purchase_frequency": 9,
+  "average_purchase_amount": 41.51,
+  "cluster": 1
+},
+  {
+  "customer_id": 1040,
+  "age": 32,
+  "annual_income": 31851,
+  "purchase_frequency": 5,
+  "average_purchase_amount": 34.31,
+  "cluster": 1
+},
+  {
+  "customer_id": 1041,
+  "age": 58,
+  "annual_income": 84028,
+  "purchase_frequency": 14,
+  "average_purchase_amount": 233.78,
+  "cluster": 2
+},
+  {
+  "customer_id": 1042,
+  "age": 31,
+  "annual_income": 47728,
+  "purchase_frequency": 29,
+  "average_purchase_amount": 75.72,
+  "cluster": 3
+},
+  {
+  "customer_id": 1043,
+  "age": 29,
+  "annual_income": 33641,
+  "purchase_frequency": 8,
+  "average_purchase_amount": 57.02,
+  "cluster": 1
+},
+  {
+  "customer_id": 1044,
+  "age": 27,
+  "annual_income": 51906,
+  "purchase_frequency": 28,
+  "average_purchase_amount": 112.76,
+  "cluster": 3
+},
+  {
+  "customer_id": 1045,
+  "age": 18,
+  "annual_income": 27585,
+  "purchase_frequency": 8,
+  "average_purchase_amount": 44.8,
+  "cluster": 1
+},
+  {
+  "customer_id": 1046,
+  "age": 57,
+  "annual_income": 69113,
+  "purchase_frequency": 9,
+  "average_purchase_amount": 233.69,
+  "cluster": 2
+},
+  {
+  "customer_id": 1047,
+  "age": 32,
+  "annual_income": 94400,
+  "purchase_frequency": 8,
+  "average_purchase_amount": 230,
+  "cluster": 2
+},
+  {
+  "customer_id": 1048,
+  "age": 18,
+  "annual_income": 30691,
+  "purchase_frequency": 4,
+  "average_purchase_amount": 50.19,
+  "cluster": 1
+},
+  {
+  "customer_id": 1049,
+  "age": 32,
+  "annual_income": 52869,
+  "purchase_frequency": 28,
+  "average_purchase_amount": 124.8,
+  "cluster": 3
+},
+  {
+  "customer_id": 1050,
+  "age": 23,
+  "annual_income": 46095,
+  "purchase_frequency": 40,
+  "average_purchase_amount": 72.12,
+  "cluster": 3
+},
+  {
+  "customer_id": 1051,
+  "age": 44,
+  "annual_income": 90038,
+  "purchase_frequency": 9,
+  "average_purchase_amount": 212.75,
+  "cluster": 2
+},
+  {
+  "customer_id": 1052,
+  "age": 23,
+  "annual_income": 31735,
+  "purchase_frequency": 4,
+  "average_purchase_amount": 34.02,
+  "cluster": 1
+},
+  {
+  "customer_id": 1053,
+  "age": 43,
+  "annual_income": 83960,
+  "purchase_frequency": 9,
+  "average_purchase_amount": 249.87,
+  "cluster": 2
+},
+  {
+  "customer_id": 1054,
+  "age": 32,
+  "annual_income": 45369,
+  "purchase_frequency": 30,
+  "average_purchase_amount": 112.96,
+  "cluster": 3
+},
+  {
+  "customer_id": 1055,
+  "age": 24,
+  "annual_income": 28819,
+  "purchase_frequency": 8,
+  "average_purchase_amount": 65.8,
+  "cluster": 1
+},
+  {
+  "customer_id": 1056,
+  "age": 50,
+  "annual_income": 95930,
+  "purchase_frequency": 10,
+  "average_purchase_amount": 228.16,
+  "cluster": 2
+},
+  {
+  "customer_id": 1057,
+  "age": 35,
+  "annual_income": 103885,
+  "purchase_frequency": 12,
+  "average_purchase_amount": 324.57,
+  "cluster": 2
+},
+  {
+  "customer_id": 1058,
+  "age": 29,
+  "annual_income": 28628,
+  "purchase_frequency": 8,
+  "average_purchase_amount": 52.38,
+  "cluster": 1
+},
+  {
+  "customer_id": 1059,
+  "age": 42,
+  "annual_income": 38993,
+  "purchase_frequency": 32,
+  "average_purchase_amount": 101.18,
+  "cluster": 3
+},
+  {
+  "customer_id": 1060,
+  "age": 40,
+  "annual_income": 55136,
+  "purchase_frequency": 34,
+  "average_purchase_amount": 74.46,
+  "cluster": 3
+},
+  {
+  "customer_id": 1061,
+  "age": 30,
+  "annual_income": 44295,
+  "purchase_frequency": 31,
+  "average_purchase_amount": 62.38,
+  "cluster": 3
+},
+  {
+  "customer_id": 1062,
+  "age": 45,
+  "annual_income": 72949,
+  "purchase_frequency": 9,
+  "average_purchase_amount": 171.86,
+  "cluster": 2
+},
+  {
+  "customer_id": 1063,
+  "age": 52,
+  "annual_income": 91694,
+  "purchase_frequency": 15,
+  "average_purchase_amount": 225.89,
+  "cluster": 2
+},
+  {
+  "customer_id": 1064,
+  "age": 34,
+  "annual_income": 29085,
+  "purchase_frequency": 5,
+  "average_purchase_amount": 41.28,
+  "cluster": 1
+},
+  {
+  "customer_id": 1065,
+  "age": 54,
+  "annual_income": 99424,
+  "purchase_frequency": 9,
+  "average_purchase_amount": 272.05,
+  "cluster": 2
+},
+  {
+  "customer_id": 1066,
+  "age": 41,
+  "annual_income": 46806,
+  "purchase_frequency": 40,
+  "average_purchase_amount": 91.14,
+  "cluster": 3
+},
+  {
+  "customer_id": 1067,
+  "age": 44,
+  "annual_income": 83254,
+  "purchase_frequency": 12,
+  "average_purchase_amount": 182.33,
+  "cluster": 2
+},
+  {
+  "customer_id": 1068,
+  "age": 30,
+  "annual_income": 58823,
+  "purchase_frequency": 35,
+  "average_purchase_amount": 91.57,
+  "cluster": 3
+},
+  {
+  "customer_id": 1069,
+  "age": 33,
+  "annual_income": 43978,
+  "purchase_frequency": 36,
+  "average_purchase_amount": 75.46,
+  "cluster": 3
+},
+  {
+  "customer_id": 1070,
+  "age": 56,
+  "annual_income": 92761,
+  "purchase_frequency": 17,
+  "average_purchase_amount": 216.62,
+  "cluster": 2
+},
+  {
+  "customer_id": 1071,
+  "age": 38,
+  "annual_income": 52610,
+  "purchase_frequency": 27,
+  "average_purchase_amount": 111.27,
+  "cluster": 3
+},
+  {
+  "customer_id": 1072,
+  "age": 38,
+  "annual_income": 48706,
+  "purchase_frequency": 39,
+  "average_purchase_amount": 99.53,
+  "cluster": 3
+},
+  {
+  "customer_id": 1073,
+  "age": 49,
+  "annual_income": 88397,
+  "purchase_frequency": 10,
+  "average_purchase_amount": 234.17,
+  "cluster": 2
+},
+  {
+  "customer_id": 1074,
+  "age": 29,
+  "annual_income": 34360,
+  "purchase_frequency": 5,
+  "average_purchase_amount": 46.88,
+  "cluster": 1
+},
+  {
+  "customer_id": 1075,
+  "age": 41,
+  "annual_income": 79371,
+  "purchase_frequency": 12,
+  "average_purchase_amount": 215.22,
+  "cluster": 2
+},
+  {
+  "customer_id": 1076,
+  "age": 35,
+  "annual_income": 31142,
+  "purchase_frequency": 9,
+  "average_purchase_amount": 49.38,
+  "cluster": 1
+},
+  {
+  "customer_id": 1077,
+  "age": 34,
+  "annual_income": 31687,
+  "purchase_frequency": 6,
+  "average_purchase_amount": 39.05,
+  "cluster": 1
+},
+  {
+  "customer_id": 1078,
+  "age": 28,
+  "annual_income": 35449,
+  "purchase_frequency": 7,
+  "average_purchase_amount": 41.49,
+  "cluster": 1
+},
+  {
+  "customer_id": 1079,
+  "age": 40,
+  "annual_income": 58156,
+  "purchase_frequency": 31,
+  "average_purchase_amount": 92.75,
+  "cluster": 3
+},
+  {
+  "customer_id": 1080,
+  "age": 51,
+  "annual_income": 91541,
+  "purchase_frequency": 14,
+  "average_purchase_amount": 177.72,
+  "cluster": 2
+},
+  {
+  "customer_id": 1081,
+  "age": 29,
+  "annual_income": 27526,
+  "purchase_frequency": 6,
+  "average_purchase_amount": 48.49,
+  "cluster": 1
+},
+  {
+  "customer_id": 1082,
+  "age": 28,
+  "annual_income": 55895,
+  "purchase_frequency": 33,
+  "average_purchase_amount": 98.14,
+  "cluster": 3
+},
+  {
+  "customer_id": 1083,
+  "age": 30,
+  "annual_income": 27242,
+  "purchase_frequency": 6,
+  "average_purchase_amount": 56.58,
+  "cluster": 1
+},
+  {
+  "customer_id": 1084,
+  "age": 25,
+  "annual_income": 26345,
+  "purchase_frequency": 6,
+  "average_purchase_amount": 55.15,
+  "cluster": 1
+},
+  {
+  "customer_id": 1085,
+  "age": 31,
+  "annual_income": 35706,
+  "purchase_frequency": 10,
+  "average_purchase_amount": 60.07,
+  "cluster": 1
+},
+  {
+  "customer_id": 1086,
+  "age": 45,
+  "annual_income": 95212,
+  "purchase_frequency": 8,
+  "average_purchase_amount": 234.8,
+  "cluster": 2
+},
+  {
+  "customer_id": 1087,
+  "age": 61,
+  "annual_income": 91134,
+  "purchase_frequency": 9,
+  "average_purchase_amount": 236.28,
+  "cluster": 2
+},
+  {
+  "customer_id": 1088,
+  "age": 35,
+  "annual_income": 30681,
+  "purchase_frequency": 7,
+  "average_purchase_amount": 58.66,
+  "cluster": 1
+},
+  {
+  "customer_id": 1089,
+  "age": 45,
+  "annual_income": 90266,
+  "purchase_frequency": 14,
+  "average_purchase_amount": 229.12,
+  "cluster": 2
+},
+  {
+  "customer_id": 1090,
+  "age": 28,
+  "annual_income": 43132,
+  "purchase_frequency": 44,
+  "average_purchase_amount": 108.27,
+  "cluster": 3
+},
+  {
+  "customer_id": 1091,
+  "age": 27,
+  "annual_income": 57028,
+  "purchase_frequency": 39,
+  "average_purchase_amount": 105.01,
+  "cluster": 3
+},
+  {
+  "customer_id": 1092,
+  "age": 34,
+  "annual_income": 58399,
+  "purchase_frequency": 28,
+  "average_purchase_amount": 88.95,
+  "cluster": 3
+},
+  {
+  "customer_id": 1093,
+  "age": 30,
+  "annual_income": 56766,
+  "purchase_frequency": 41,
+  "average_purchase_amount": 72.82,
+  "cluster": 3
+},
+  {
+  "customer_id": 1094,
+  "age": 44,
+  "annual_income": 30999,
+  "purchase_frequency": 5,
+  "average_purchase_amount": 56.5,
+  "cluster": 1
+},
+  {
+  "customer_id": 1095,
+  "age": 37,
+  "annual_income": 54966,
+  "purchase_frequency": 33,
+  "average_purchase_amount": 92.98,
+  "cluster": 3
+},
+  {
+  "customer_id": 1096,
+  "age": 50,
+  "annual_income": 102328,
+  "purchase_frequency": 16,
+  "average_purchase_amount": 191.6,
+  "cluster": 2
+},
+  {
+  "customer_id": 1097,
+  "age": 31,
+  "annual_income": 29127,
+  "purchase_frequency": 8,
+  "average_purchase_amount": 37.78,
+  "cluster": 1
+},
+  {
+  "customer_id": 1098,
+  "age": 31,
+  "annual_income": 67614,
+  "purchase_frequency": 32,
+  "average_purchase_amount": 48.8,
+  "cluster": 3
+},
+  {
+  "customer_id": 1099,
+  "age": 45,
+  "annual_income": 88988,
+  "purchase_frequency": 14,
+  "average_purchase_amount": 159.14,
+  "cluster": 2
+},
+  {
+  "customer_id": 1100,
+  "age": 18,
+  "annual_income": 25435,
+  "purchase_frequency": 7,
+  "average_purchase_amount": 45.2,
+  "cluster": 1
+}
+]
+}

@@ -1,0 +1,19 @@
+# R environment artifacts
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Operating system artifacts
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Temporary files, caches, and logs
+*.tmp
+*.log
+__pycache__/
+
+# Node / editor artifacts
+.vscode/
+.idea/
