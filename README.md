@@ -138,13 +138,6 @@ Rscript tests/test_clustering.R
    `https://[YOUR_USERNAME].github.io/[YOUR_REPOSITORY_NAME]/`
 
 ---
-
-## 10. Important Architecture & Deployment Limitation
-
-GitHub Pages is a static file host; **it serves static files and does not execute R code on the server**.
-
-The R analysis (`R/main.R`) generates the data files (`output/dashboard_data.json` and CSVs) in advance. The web frontend directly consumes these pre-generated static outputs. Whenever new customer records are added or updated, rerun `Rscript R/main.R` locally and commit the resulting `output/` files to update the live website.
-
 ---
 
 ## Synthetic Data Notice
